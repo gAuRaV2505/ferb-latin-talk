@@ -1,0 +1,103 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Pacifico&display=swap');
+
+
+* {
+    padding: 0rem;
+    margin: 0rem;
+    box-sizing: border-box;
+    
+    
+}
+:root{
+    --primary-clor:#075985;
+}
+
+body {
+    background-color: #bfdbfe;
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Pacifico', cursive;
+}
+
+.header {
+    max-width: 60%;
+    text-align: center;
+    margin: auto;
+    background-color: var(--primary-clor);
+    font-size: 2rem;
+    padding: 1rem;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    color: white;
+}
+
+.section {
+    /* background-color: #0369a1; */
+    width: 100%;
+    padding: 1rem 3rem;
+    margin-top: 2rem;
+    
+}
+
+.txtInput {
+    width: 45%;
+    height: 40vh;
+    display: inline;
+    text-align: left;
+    background-color: #e5e7eb;
+    color: black;
+    border: 3px solid black;
+    padding: 1rem;
+    font-size: 1.1rem;
+}
+.txtOutput {
+    width: 45%;
+    background-color: #e5e7eb;
+    min-height: 40vh;
+    display: inline;
+    float: right;
+    padding: 1rem;
+    border: 3px solid black;
+    font-family: monospace;
+    font-size: 1.1rem;
+}
+
+.button {
+    background-color:#e5e7eb ;
+    padding: 1rem;
+    font-size: 1.2rem;
+    border-radius: 30%;
+    border: none;
+    justify-content: center;
+    display: block;
+    margin: 2rem auto;
+    background-color:var(--primary-clor);
+    color: white;
+}
+
+.button:hover {
+    background-color: #e5e7eb;
+    color: var(--primary-clor);
+    border: 3px solid var(--primary-clor);
+}
+
+.arrow {
+    display: inline;
+}
+
+.footer {
+    background-color: var(--primary-clor);
+    text-align: center;
+    margin: auto;
+    max-width: 70%;
+    color: white;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+.footer p {
+    font-size: 1.5rem;
+    padding: 1rem;
+   
+}
